@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "TechVision Pvt Ltd",
+    "industry": "Software",
+    "location": "Hyderabad",
+    "employees": 120,
+    "website": "https://techvision.in",
+    "description": "A modern software development company specializing in SaaS products."
+  },
+  {
+    "id": 2,
+    "name": "FinEdge Solutions",
+    "industry": "Finance",
+    "location": "Mumbai",
+    "employees": 80,
+    "website": "https://finedge.com",
+    "description": "Offers digital financial consulting and investment automation tools."
+  },
+  {
+    "id": 3,
+    "name": "GreenLeaf Organics",
+    "industry": "Agriculture",
+    "location": "Bangalore",
+    "employees": 45,
+    "website": "https://greenleaforganic.in",
+    "description": "Organic food production and farm-to-table supply chain."
+  },
+  {
+    "id": 4,
+    "name": "SkyHigh Digital",
+    "industry": "Marketing",
+    "location": "Delhi",
+    "employees": 60,
+    "website": "https://skyhighdigital.com",
+    "description": "Digital marketing and brand promotion agency."
+  },
+  {
+    "id": 5,
+    "name": "CloudNova Technologies",
+    "industry": "Cloud Computing",
+    "location": "Pune",
+    "employees": 150,
+    "website": "https://cloudnova.tech",
+    "description": "Cloud migration and DevOps automation solutions."
+  },
+  {
+    "id": 6,
+    "name": "MediCure Health",
+    "industry": "Healthcare",
+    "location": "Chennai",
+    "employees": 200,
+    "website": "https://medicurehealth.in",
+    "description": "Healthcare management systems and hospital software."
+  },
+  {
+    "id": 7,
+    "name": "UrbanWorks Construction",
+    "industry": "Construction",
+    "location": "Hyderabad",
+    "employees": 350,
+    "website": "https://urbanworks.com",
+    "description": "Infrastructure development and smart city solutions."
+  },
+  {
+    "id": 8,
+    "name": "NextGen Robotics",
+    "industry": "Robotics",
+    "location": "Bangalore",
+    "employees": 90,
+    "website": "https://nextgenrobotics.ai",
+    "description": "AI-driven robots and automation hardware."
+  },
+  {
+    "id": 9,
+    "name": "EduSmart Academy",
+    "industry": "Education",
+    "location": "Kolkata",
+    "employees": 40,
+    "website": "https://edusmartacademy.in",
+    "description": "Online learning platform and skill development courses."
+  },
+  {
+    "id": 10,
+    "name": "OceanWave Logistics",
+    "industry": "Logistics",
+    "location": "Mumbai",
+    "employees": 250,
+    "website": "https://oceanwavelogistics.com",
+    "description": "Global shipping, cargo, and supply chain operations."
+  },
+  {
+    "id": 11,
+    "name": "FreshCart Retail",
+    "industry": "Retail",
+    "location": "Hyderabad",
+    "employees": 500,
+    "website": "https://freshcart.in",
+    "description": "Retail and e-commerce grocery chain."
+  },
+  {
+    "id": 12,
+    "name": "VoltX Energy",
+    "industry": "Energy",
+    "location": "Ahmedabad",
+    "employees": 180,
+    "website": "https://voltxenergy.com",
+    "description": "Solar energy and renewable power solutions."
+  },
+  {
+    "id": 13,
+    "name": "SecureShield Cybertech",
+    "industry": "Cybersecurity",
+    "location": "Bangalore",
+    "employees": 110,
+    "website": "https://secureshield.com",
+    "description": "Cybersecurity consulting, audits, and penetration testing."
+  },
+  {
+    "id": 14,
+    "name": "AeroSpace Dynamics",
+    "industry": "Aerospace",
+    "location": "Chennai",
+    "employees": 220,
+    "website": "https://aerospacedynamics.in",
+    "description": "Aerospace research and manufacturing components."
+  },
+  {
+    "id": 15,
+    "name": "PixelCraft Studios",
+    "industry": "Design",
+    "location": "Delhi",
+    "employees": 55,
+    "website": "https://pixelcraftstudios.com",
+    "description": "Graphic design, UI/UX, and branding agency."
+  },
+  {
+    "id": 16,
+    "name": "RentEasy Services",
+    "industry": "Real Estate",
+    "location": "Hyderabad",
+    "employees": 75,
+    "website": "https://renteasy.in",
+    "description": "Rental management and property solutions."
+  },
+  {
+    "id": 17,
+    "name": "FoodieByte Hospitality",
+    "industry": "Food & Beverage",
+    "location": "Mumbai",
+    "employees": 130,
+    "website": "https://foodiebyte.com",
+    "description": "Restaurant chain and cloud kitchen management platform."
+  },
+  {
+    "id": 18,
+    "name": "AutoDrive Motors",
+    "industry": "Automobile",
+    "location": "Pune",
+    "employees": 400,
+    "website": "https://autodrive.in",
+    "description": "Car manufacturing and automation systems."
+  },
+  {
+    "id": 19,
+    "name": "QuantumSoft AI",
+    "industry": "Artificial Intelligence",
+    "location": "Bangalore",
+    "employees": 160,
+    "website": "https://quantumsoft.ai",
+    "description": "AI model development and machine learning infrastructure."
+  },
+  {
+    "id": 20,
+    "name": "SwiftPay Fintech",
+    "industry": "Fintech",
+    "location": "Noida",
+    "employees": 95,
+    "website": "https://swiftpay.in",
+    "description": "Digital payments, UPI solutions, and mobile wallets."
+  }
+]
