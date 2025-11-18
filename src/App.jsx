@@ -1,20 +1,30 @@
-import React from 'react';
-import Home from './pages/Home.jsx';
+import React, { useEffect, useState } from 'react';
+import Home from './pages/Home';
 
-function App() {
+export default function App() {
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'dark';
+  });
+
+  // Apply theme class to <body>
+  useEffect(() => {
+    document.body.className = theme;
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
   return (
-    <div className="app">
-      <header className="app-header">
+    <>
+      <header className="header">
         <h1>Companies Directory</h1>
+        <button
+          className="theme-toggle"
+          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+        >
+          {theme === 'dark' ? '🌞' : '🌙'}
+        </button>
       </header>
-      <main className="app-main">
-        <Home />
-      </main>
-      <footer className="app-footer">
-        <small>Companies Directory • Demo</small>
-      </footer>
-    </div>
+
+      <Home />
+    </>
   );
 }
-
-export default App;

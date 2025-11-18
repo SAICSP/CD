@@ -5,7 +5,6 @@
     "industry": "Software",
     "location": "Hyderabad",
     "employees": 120,
-    "website": "https://techvision.in",
     "description": "A modern software development company specializing in SaaS products."
   },
   {
@@ -14,7 +13,6 @@
     "industry": "Finance",
     "location": "Mumbai",
     "employees": 80,
-    "website": "https://finedge.com",
     "description": "Offers digital financial consulting and investment automation tools."
   },
   {
@@ -23,7 +21,6 @@
     "industry": "Agriculture",
     "location": "Bangalore",
     "employees": 45,
-    "website": "https://greenleaforganic.in",
     "description": "Organic food production and farm-to-table supply chain."
   },
   {
@@ -32,7 +29,6 @@
     "industry": "Marketing",
     "location": "Delhi",
     "employees": 60,
-    "website": "https://skyhighdigital.com",
     "description": "Digital marketing and brand promotion agency."
   },
   {
@@ -41,7 +37,6 @@
     "industry": "Cloud Computing",
     "location": "Pune",
     "employees": 150,
-    "website": "https://cloudnova.tech",
     "description": "Cloud migration and DevOps automation solutions."
   },
   {
@@ -50,7 +45,6 @@
     "industry": "Healthcare",
     "location": "Chennai",
     "employees": 200,
-    "website": "https://medicurehealth.in",
     "description": "Healthcare management systems and hospital software."
   },
   {
@@ -59,7 +53,6 @@
     "industry": "Construction",
     "location": "Hyderabad",
     "employees": 350,
-    "website": "https://urbanworks.com",
     "description": "Infrastructure development and smart city solutions."
   },
   {
@@ -68,7 +61,6 @@
     "industry": "Robotics",
     "location": "Bangalore",
     "employees": 90,
-    "website": "https://nextgenrobotics.ai",
     "description": "AI-driven robots and automation hardware."
   },
   {
@@ -77,7 +69,6 @@
     "industry": "Education",
     "location": "Kolkata",
     "employees": 40,
-    "website": "https://edusmartacademy.in",
     "description": "Online learning platform and skill development courses."
   },
   {
@@ -86,7 +77,6 @@
     "industry": "Logistics",
     "location": "Mumbai",
     "employees": 250,
-    "website": "https://oceanwavelogistics.com",
     "description": "Global shipping, cargo, and supply chain operations."
   },
   {
@@ -95,7 +85,6 @@
     "industry": "Retail",
     "location": "Hyderabad",
     "employees": 500,
-    "website": "https://freshcart.in",
     "description": "Retail and e-commerce grocery chain."
   },
   {
@@ -104,7 +93,6 @@
     "industry": "Energy",
     "location": "Ahmedabad",
     "employees": 180,
-    "website": "https://voltxenergy.com",
     "description": "Solar energy and renewable power solutions."
   },
   {
@@ -113,7 +101,6 @@
     "industry": "Cybersecurity",
     "location": "Bangalore",
     "employees": 110,
-    "website": "https://secureshield.com",
     "description": "Cybersecurity consulting, audits, and penetration testing."
   },
   {
@@ -122,7 +109,6 @@
     "industry": "Aerospace",
     "location": "Chennai",
     "employees": 220,
-    "website": "https://aerospacedynamics.in",
     "description": "Aerospace research and manufacturing components."
   },
   {
@@ -131,7 +117,6 @@
     "industry": "Design",
     "location": "Delhi",
     "employees": 55,
-    "website": "https://pixelcraftstudios.com",
     "description": "Graphic design, UI/UX, and branding agency."
   },
   {
@@ -140,7 +125,6 @@
     "industry": "Real Estate",
     "location": "Hyderabad",
     "employees": 75,
-    "website": "https://renteasy.in",
     "description": "Rental management and property solutions."
   },
   {
@@ -149,7 +133,6 @@
     "industry": "Food & Beverage",
     "location": "Mumbai",
     "employees": 130,
-    "website": "https://foodiebyte.com",
     "description": "Restaurant chain and cloud kitchen management platform."
   },
   {
@@ -158,7 +141,6 @@
     "industry": "Automobile",
     "location": "Pune",
     "employees": 400,
-    "website": "https://autodrive.in",
     "description": "Car manufacturing and automation systems."
   },
   {
@@ -167,7 +149,6 @@
     "industry": "Artificial Intelligence",
     "location": "Bangalore",
     "employees": 160,
-    "website": "https://quantumsoft.ai",
     "description": "AI model development and machine learning infrastructure."
   },
   {
@@ -176,7 +157,6 @@
     "industry": "Fintech",
     "location": "Noida",
     "employees": 95,
-    "website": "https://swiftpay.in",
     "description": "Digital payments, UPI solutions, and mobile wallets."
   }
 ]

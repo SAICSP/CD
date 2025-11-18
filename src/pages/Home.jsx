@@ -9,13 +9,11 @@ const PAGE_SIZE = 6;
 
 export default function Home() {
   const { data: companies, loading, error } = useFetchCompanies();
-  
-  
+
   const [query, setQuery] = useState('');
   const [industry, setIndustry] = useState('');
   const [location, setLocation] = useState('');
-  const [sortBy, setSortBy] = useState('name-asc'); // name-asc | name-desc | employees-asc | employees-desc
-  const [view, setView] = useState('cards'); // cards | table
+  const [sortBy, setSortBy] = useState('name-asc');
   const [page, setPage] = useState(1);
 
   const industries = useMemo(() => uniqueValues(companies, 'industry'), [companies]);
@@ -45,21 +43,17 @@ export default function Home() {
     return res;
   }, [companies, query, industry, location, sortBy]);
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  const paginated = useMemo(() => {
-    const start = (page - 1) * PAGE_SIZE;
-    return filtered.slice(start, start + PAGE_SIZE);
-  }, [filtered, page]);
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
-  React.useEffect(() => setPage(1), [query, industry, location, sortBy, view]);
+  React.useEffect(() => setPage(1), [query, industry, location, sortBy]);
 
   if (loading) return <Loader />;
   if (error) return <div className="center error">Error: {error}</div>;
 
-  
-
   return (
     <div className="container">
+
       <Filters
         query={query}
         setQuery={setQuery}
@@ -71,26 +65,19 @@ export default function Home() {
         locations={locations}
         sortBy={sortBy}
         setSortBy={setSortBy}
-        view={view}
-        setView={setView}
       />
 
       <div className="results-info">
-        <div>{filtered.length} result{filtered.length !== 1 ? 's' : ''}</div>
+        <div>{filtered.length} results</div>
         <div className="small-muted">Page {page} / {totalPages}</div>
       </div>
 
-      {view === 'table' ? (
-        <CompanyTable companies={filtered} />
-      ) : (
-        <div className="cards-grid">
-          {paginated.map((c) => (
-            <CompanyCard key={c.id} company={c} />
-          ))}
-        </div>
-      )}
+      <div className="cards-grid">
+        {paginated.map((c) => (
+          <CompanyCard key={c.id} company={c} />
+        ))}
+      </div>
 
-      {/* Pagination controls */}
       <div className="pagination">
         <button onClick={() => setPage(1)} disabled={page === 1}>« First</button>
         <button onClick={() => setPage((p) => Math.max(1, p - 1))} disabled={page === 1}>‹ Prev</button>
@@ -98,6 +85,7 @@ export default function Home() {
         <button onClick={() => setPage((p) => Math.min(totalPages, p + 1))} disabled={page === totalPages}>Next ›</button>
         <button onClick={() => setPage(totalPages)} disabled={page === totalPages}>Last »</button>
       </div>
+
     </div>
   );
 }

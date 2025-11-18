@@ -1,3 +1,45 @@
+/* LIGHT MODE (default) */
+body.light {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* DARK MODE */
+body.dark {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 22px;
+    background: var(--header-bg);
+    color: var(--header-text);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Theme button */
+.theme-toggle {
+    background: #444;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+body.light .theme-toggle {
+    background: #ddd;
+    color: #000;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.06);
+}
 :root {
     --bg: #f7f8fb;
     --card: #ffffff;
@@ -284,4 +326,26 @@ body {
     .company-table td {
         padding: 8px
     }
+}
+/* CARD LIGHT MODE */
+body.light .card {
+    background: white;
+    color: #111;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* CARD DARK MODE */
+body.dark .card {
+    background: #1a1a1a;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover zoom */
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
 }
